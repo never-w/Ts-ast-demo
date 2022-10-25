@@ -1,0 +1,28 @@
+{
+  "name": "ts-ast-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node script.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "express": "^4.18.2",
+    "prettier": "^2.7.1",
+    "ts-factory-code-generator-generator": "^0.6.4",
+    "ts-morph": "^16.0.0",
+    "typescript": "^4.8.4",
+    "typescript-4.0.2": "npm:typescript@4.0.2"
+  }
+}

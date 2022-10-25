@@ -1,0 +1,18 @@
+{
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "semi": false,
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "typescript" }
+    }
+  ]
+}
